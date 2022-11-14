@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table, td {
+            border: 1px solid black;
+            width: 30vw;
+            text-align: center;
+            padding: 1vh;
+            border-collapse: collapse;
+        }
+        .linha {
+            background-color: rgb(139, 139, 255);
+            color: aliceblue;
+        }
+        .destaque {
+            background-color: darkred;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela Simples</h1>
+    <table> <!--Tabela 01-->
+        
+        <tr class="linha"> <!--Linha 01 da tabela-->
+            <td>A1</td> <!--Dado 01 da linha 01-->
+            <td>B1</td> <!--Dado 02 da linha 01-->
+            <td class="destaque">C1</td>
+        </tr>
+        <tr> <!--Linha 02 da tabela 01-->
+            <td class="destaque">A2</td> <!--Dado 01 da linha 02-->
+            <td>B2</td> <!--Dado 02 da linha 02-->
+            <td>C2</td> <!--Dado 03 da linha 02-->
+        </tr>
+
+        <tr> <!--Linha 03 da tabela 01-->
+            <td>A3</td> <!--Dado 01 da linha 03-->
+            <td class="destaque">B3</td> <!--Dado 02 da linha 03-->
+            <td>C3</td> <!--Dado 03 da linha 03-->
+        </tr>
+    </table>
+</body>
+</html>
